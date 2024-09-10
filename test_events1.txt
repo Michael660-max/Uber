@@ -1,0 +1,11 @@
+# The format for DriverRequest events is:
+# <timestamp> DriverRequest <driver id> <location> <speed>
+# <location> is <row>,<col>
+
+10 DriverRequest Crocus 1,1 1
+
+# The format for RiderRequest events is:
+# <timestamp> RiderRequest <rider id> <origin> <destination> <patience>
+# <origin>, <destination> are <row>,<col>
+
+0 RiderRequest Cerise 4,4 6,6 30
